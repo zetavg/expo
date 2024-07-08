@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "expo in apps/bare-expo",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "cwd": "${workspaceFolder}/apps/bare-expo",
+      // "program": "${workspaceFolder}/packages/expo/bin/cli",
+      // "program": "${workspaceFolder}/packages/@expo/cli/build/bin/cli",
+      "program": "${workspaceFolder}/packages/@expo/cli/bin/cli.ts",
+      "outFiles": [
+        "${workspaceFolder}/packages/@expo/cli/build/**/*", // The built CLI entry point does not have a .js extension, so this is needed for VSCode to find the correct file.
+        "${workspaceFolder}/packages/**/*.js"
+      ]
+    }
+  ]
+}
