@@ -32,7 +32,6 @@
   "jest": {
     "preset": "expo-module-scripts"
   },
-  "dependencies": {},
   "devDependencies": {
     "@testing-library/react-native": "^12.5.2",
     "expo-module-scripts": "^4.0.0"

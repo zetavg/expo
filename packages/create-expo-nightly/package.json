@@ -9,9 +9,7 @@
     "react-native",
     "testing"
   ],
-  "bin": {
-    "create-expo-nightly": "build/index.js"
-  },
+  "bin": "build/index.js",
   "main": "build/index.js",
   "type": "module",
   "files": [

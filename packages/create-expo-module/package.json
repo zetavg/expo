@@ -10,9 +10,7 @@
     "lint": "expo-module lint",
     "expo-module": "expo-module"
   },
-  "bin": {
-    "create-expo-module": "./bin/create-expo-module"
-  },
+  "bin": "./bin/create-expo-module",
   "repository": {
     "type": "git",
     "url": "https://github.com/expo/expo.git",
